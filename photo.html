@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>JQuery photo gallary</title>
+<link href="Style.css" rel="stylesheet">
+<link href="photo.css" rel="stylesheet">
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script>
+	$(document).ready(
+		function () {
+			$("#gallery li img").hover(function() {
+				$("#main_img").attr('src',$(this).attr('src').replace('thumb/',''))
+			});
+		});
+</script>
+</head>
+
+<body>
+	<nav>
+		<ul class="navigation">
+			<li id="left" ><a href="index.html">Kaila Woo<a/></li>
+			<li id="right"><a href="#">About Me<a/></li>
+			<li><a href="projects.html">Projects</a></li>
+	</nav>
+	<div class="container">
+	<h1 class="title">jQuery Photo Gallery</h1>
+	<div id="gallery">
+		<img src="images/img/img_1.jpg" id="main_img"/>
+		<ul>
+			<li><img src="images/img/thumb/img_1.jpg" /></li>
+			<li><img src="images/img/thumb/img_2.jpg" /></li>
+			<li><img src="images/img/thumb/img_3.jpg" /></li>
+			<li><img src="images/img/thumb/img_4.jpg" /></li>		
+			<li><img src="images/img/thumb/img_5.jpg" /></li>
+			<li><img src="images/img/thumb/img_6.jpg" /></li>
+
+		</ul>
+</body>
+</html>

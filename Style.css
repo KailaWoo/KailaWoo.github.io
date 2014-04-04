@@ -1,0 +1,79 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+	background: #99ffff;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#right{
+	float: right;
+}
+
+.navigation{
+	background: #ffffff;
+	height: 50px;
+}
+
+.navigation{
+	font-size: 30px;
+}
+
+.navigation li{
+	display: inline;
+	margin-right: 10px;
+}
+
+.navigation a{
+	color: #00ff00;
+	text-decoration: none;
+	font-family: 'Ceviche One' , cursive ;
+}
+
+.navigation a:visited{
+	color: #FF0000;
+}
+
+.navigation a:hover{
+color: #555;
+}
+
+#welcome{
+	text-align: center;
+}
+
+#kaila{
+	text-align: center;
+}
+
+#h{
+	text-align: center;
+}
+
+#facebook{
+	height: 50px;
+	width: 50px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+}
+
+#vegas{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#disneyland{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#paragraph{
+font-size: 25px;
+}
+
+
+
