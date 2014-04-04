@@ -10,6 +10,11 @@ body{
 	float: right;
 }
 
+#middle{
+	margin-left: 400px;
+
+}
+
 .navigation{
 	background: #ffffff;
 	height: 50px;
@@ -78,6 +83,4 @@ font-size: 25px;
 .projects{
 	text-align: center;
 }
-
-
 
