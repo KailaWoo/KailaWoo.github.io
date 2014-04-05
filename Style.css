@@ -1,27 +1,30 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Italianno);
 
 body{
-	background: #99ffff;
+	background: #d1ffff;
 	margin: 0;
 	font-family: 'Open Sans', sans-serif;
 }
+
 
 #right{
 	float: right;
 }
 
 #middle{
-	margin-left: 400px;
+	float: right;
+	margin-right: 20px;
 
 }
 
 .navigation{
 	background: #ffffff;
-	height: 50px;
+	height: 65px;
 }
 
 .navigation{
-	font-size: 30px;
+	font-size: 40px;
 }
 
 .navigation li{
@@ -30,9 +33,10 @@ body{
 }
 
 .navigation a{
-	color: #00ff00;
+	color: #000;
 	text-decoration: none;
-	font-family: 'Ceviche One' , cursive ;
+	font-family: Italianno;
+	font-style: strong;border-style:
 }
 
 .navigation a:visited{
@@ -74,13 +78,21 @@ color: #555;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	padding-bottom: 10px;
 }
 
 #paragraph{
 font-size: 25px;
+margin-left: 30px;
 }
 
 .projects{
 	text-align: center;
 }
 
+#todolist{
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
